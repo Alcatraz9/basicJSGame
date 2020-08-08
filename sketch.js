@@ -1,7 +1,7 @@
 var bird;
 var pipes = [];
 function setup() {
-  createCanvas(1280, 720);
+  createCanvas(1000, 600);
   bird = new Bird();
   pipes.push(new Pipe());
 }
